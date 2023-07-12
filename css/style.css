@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 20px; /* root */
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.contenedor {
+    background-color: steelblue;
+    height: 30rem; /* root => html => aprox 16px */ /* 30*20px => 600px */
+    width: 90%; /* toma como referncia % al elemento padre. 90% del body */
+    margin: 3rem auto;
+    outline: .1rem solid crimson; /* no ocupa espacio. Es parte del modelo caja */ /* 20*.1 = 20/10 => 2px */
+}
+
+.elemento {
+    background-color: chocolate;
+    width: 10rem; /* 200px */
+    height: 10rem;
+    color: #eee;
+    padding: .5rem;
+
+    transition: .4s all;
+
+  
+}
+
+.contenedor:hover .elemento {
+
+}
+
+
+
+
+
+
+
+
+
+
+
